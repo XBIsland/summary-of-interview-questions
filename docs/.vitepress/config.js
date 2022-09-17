@@ -1,5 +1,5 @@
 export default {
-  base: 'interview',
+  base: '/interview/',
   themeConfig: {
     siteTitle: '面试题总结',
     nav: [
