@@ -4,7 +4,7 @@ export default {
     siteTitle: '面试题总结',
     nav: [
       { text: '首页', link: '/' },
-      { text: '基础', link: '/base/', activeMatch: '/base/' },
+      { text: '基础', link: '/base/', activeMatch: '/base/' }
     ],
     socialLinks: [
       {
@@ -17,13 +17,17 @@ export default {
         {
           text: 'JS',
           items: [
-            { text: '数据类型', link: '/base/js_data_type' }, // /guide/one.md
-            { text: 'Two', link: '/base/two' } // /guide/two.md
+            { text: '数据类型', link: '/base/js_data_type' },
+            { text: 'Two', link: '/base/two' }
           ]
+        },
+        {
+          text: 'BrowserDom',
+          items: [{ text: '事件', link: '/base/event' }]
         }
-      ],
+      ]
     }
-    // sidebar: 
+    // sidebar:
     // [
     //   {
     //     text: 'Guide',
