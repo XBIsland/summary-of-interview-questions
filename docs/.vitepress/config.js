@@ -23,7 +23,10 @@ export default {
         },
         {
           text: 'BrowserDom',
-          items: [{ text: '事件', link: '/base/event' }]
+          items: [
+            { text: '事件', link: '/base/event' },
+            { text: '数据存储', link: '/base/data_storage' }
+          ]
         }
       ]
     }
