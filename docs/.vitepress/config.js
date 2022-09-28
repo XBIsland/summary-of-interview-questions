@@ -4,7 +4,8 @@ export default {
     siteTitle: '面试题总结',
     nav: [
       { text: '首页', link: '/' },
-      { text: '基础', link: '/base/', activeMatch: '/base/' }
+      { text: '基础', link: '/base/', activeMatch: '/base/' },
+      { text: 'Vue', link: '/vue/', activeMatch: '/vue/' }
     ],
     socialLinks: [
       {
@@ -27,8 +28,18 @@ export default {
             { text: '事件', link: '/base/event' },
             { text: '数据存储', link: '/base/data_storage' }
           ]
+        },
+        {
+          text: 'CSS',
+          items: [{ text: '基础', link: '/base/css' }]
         }
-      ]
+      ],
+      // '/vue/': [
+      //   {
+      //     // text: 'Vue',
+      //     items: [{ text: '基础', link: '/vue/index' }]
+      //   }
+      // ]
     }
     // sidebar:
     // [
